@@ -18,8 +18,8 @@ case getItem Json.Decode.string myKey of
 
 Save a value in localStorage with the given key. Note: value will be encoded as JSON for easier retrieval.
 
-`setItem : String -> Value -> Task String String`
+`setItem : String -> Value -> String`
 
 ```elm
-task = setItem myKey (Json.Encode.string "my value")
+_ = setItem myKey (Json.Encode.string "my value")
 ```
