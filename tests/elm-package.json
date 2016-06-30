@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "summary": "Tests for LocalStorage",
+    "repository": "https://github.com/thaterikperson/elm-localstorage.git",
+    "license": "BSD-3-Clause",
+    "source-directories": [
+        ".",
+        "../src"
+    ],
+    "exposed-modules": [],
+    "native-modules": true,
+    "dependencies": {
+        "elm-community/elm-test": "1.1.0 <= v < 2.0.0",
+        "elm-lang/core": "2.0.0 <= v < 4.0.0"
+    },
+    "elm-version": "0.17.0 <= v < 0.18.0"
+}
